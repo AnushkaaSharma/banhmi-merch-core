@@ -2,6 +2,7 @@ import React from 'react'
 import {MainCarouselData} from './MainCarouselData'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
+import '../../../css/MainCarousel.css';
 
 const MainCarousel = () => {
     const items = MainCarouselData.map((item)=><img className="cursor-pointer" 
@@ -11,6 +12,10 @@ const MainCarousel = () => {
     <div>
         <AliceCarousel
             items={items}
+            disableButtonsControls
+            autoPlay
+            autoPlayInterval={1000}
+            infinite
         />
     </div>
   )
