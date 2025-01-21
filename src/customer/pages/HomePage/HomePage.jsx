@@ -1,5 +1,6 @@
 import React from 'react'
 import MainCarousel from '../../components/HomeCarousel/MainCarousel';
+import ShopByCategory from '../../components/ShopByCategory/ShopByCategory'
 
 const HomePage = () => {
   return (
@@ -7,7 +8,7 @@ const HomePage = () => {
         <MainCarousel />
 
         <div>
-            other section
+            <ShopByCategory />
         </div>
     </div>
   )

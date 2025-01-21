@@ -1,6 +1,7 @@
 import React from 'react'
 import Navigation from './customer/components/Navigation';
 import HomePage from './customer/pages/HomePage/HomePage';
+import ShopByCategory from './customer/components/ShopByCategory/ShopByCategory'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div>
         <HomePage />
       </div>
+
     </div>
       
   );
