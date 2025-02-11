@@ -2,8 +2,8 @@ import React from 'react'
 import MainCarousel from '../../components/HomeCarousel/MainCarousel'
 import ShopByCategory from '../../components/ShopByCategory/ShopByCategory'
 import ImageTextSection from '../../components/ImageTextSection/ImageTextSection'
-import FooterBannerSection from '../../components/FooterBannerSection/FooterBannerSection'
 import Footer from '../../components/Footer/Footer'
+
 
 const HomePage = () => {
   return (
@@ -19,7 +19,6 @@ const HomePage = () => {
         </div>
 
         <div>
-          <FooterBannerSection />
           <Footer />
         </div>
     </div>
