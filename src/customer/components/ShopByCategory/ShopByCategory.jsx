@@ -12,13 +12,13 @@ const ShopByCategory = () => {
         Shop By Category
       </h4>
       <img className="w-48 h-auto mx-auto" src={divider} alt="Divider" />
-      <div className="grid grid-cols-2 gap-5 my-10">
+      <div className="grid grid-cols-2 gap-5 my-10 font-body">
         <div className="relative h-full w-full">
           {/* Background Image */}
           <img className="h-full w-full object-cover" src={noodles} alt="Noodles" />
           {/* Content (Bottom Left) */}
           <div className="absolute bottom-0 left-0 p-6 text-neutral-100">
-            <h2 className="text-h5 font-semibold pb-2">Noodles</h2>
+            <h2 className="text-h5 font-medium pb-2">Noodles</h2>
             <a className="text-p py-2 font-regular border-b-2 border-solid border-neutral-100" href="#">View All</a>
           </div>
         </div>
@@ -29,7 +29,7 @@ const ShopByCategory = () => {
           <img className="h-full w-full object-cover" src={sauce} alt="Sauce" />
           {/* Content (Bottom Left) */}
           <div className="absolute bottom-0 left-0 p-6 text-neutral-100">
-            <h2 className="text-h5 font-semibold pb-2">Noodles</h2>
+            <h2 className="text-h5 font-semibold pb-2">Sauces</h2>
             <a className="text-p py-2 font-regular border-b-2 border-solid border-neutral-100" href="#">View All</a>
           </div>
         </div>
