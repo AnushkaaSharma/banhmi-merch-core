@@ -26,6 +26,7 @@ module.exports = {
       },
       primary: {
         '500': '#DB9423',
+        '600': '#ed7a00',
       },
     },
     fontSize: {
