@@ -1,24 +1,20 @@
 import React from 'react'
 
-const HomeSectionCard = ({title, description, image, price}) => {
+const HomeSectionCard = ({ title, image, price }) => {
   return (
-    <div>
-      <div className='cursor-pointer flex flex-col items-center bg-white rounded-lg overflow-hidden w-[16rem] mx-3'>
-        <div className='h-[13rem]'>
-            <img className="object-cover object-top w-full h-full" 
-            src={image} alt={title} />
-        </div>
+    <div className='cursor-pointer flex flex-col items-center overflow-hidden'>
+      {/* Image Container with Background */}
+      <div className='bg-neutral-200 flex justify-center items-center h-[400px] w-full p-4 border-r-0'>
+        <img className="object-contain w-full h-full" src={image} alt={title} />
+      </div>
 
-        <div className='p-4'>
-            <h3 className="text-lg font-medium text-gray-900">{title}</h3>
-            <p className="mt-2 text-sm text-gray-500">{description}</p>
-            <p>{price}</p>
-        </div>
+      {/* Text Content */}
+      <div className='p-5 text-center font-body'>
+        <h3 className="text-p font-regular text-neutral-900">{title}</h3>
+        <p className="text-primary-500 font-medium">{price}</p>
       </div>
     </div>
-
-    
-  )
-}
+  );
+};
 
 export default HomeSectionCard

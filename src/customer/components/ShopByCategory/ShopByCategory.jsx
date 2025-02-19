@@ -17,7 +17,7 @@ const ShopByCategory = () => {
           {/* Background Image */}
           <img className="h-full w-full object-cover" src={noodles} alt="Noodles" />
           {/* Content (Bottom Left) */}
-          <div className="absolute bottom-0 left-0 p-6 text-neutral-100">
+          <div className="absolute bottom-0 left-0 p-6 mb-6 text-neutral-100">
             <h2 className="text-h5 font-medium pb-2">Noodles</h2>
             <a className="text-p py-2 font-regular border-b-2 border-solid border-neutral-100" href="#">View All</a>
           </div>
@@ -28,8 +28,8 @@ const ShopByCategory = () => {
           {/* Background Image */}
           <img className="h-full w-full object-cover" src={sauce} alt="Sauce" />
           {/* Content (Bottom Left) */}
-          <div className="absolute bottom-0 left-0 p-6 text-neutral-100">
-            <h2 className="text-h5 font-semibold pb-2">Sauces</h2>
+          <div className="absolute bottom-0 left-0 p-6 text-neutral-100 mb-6">
+            <h2 className="text-h5 font-medium pb-2">Sauces</h2>
             <a className="text-p py-2 font-regular border-b-2 border-solid border-neutral-100" href="#">View All</a>
           </div>
         </div>
