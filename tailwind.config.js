@@ -14,7 +14,7 @@ module.exports = {
     colors: {
       neutral: {
         '100': '#FAFAFA',
-        '200': '#F4F4F4',
+        '200': '#F4F2F0',
         '300': '#ECECEC',
         '400': '#D8D8D8',
         '500': '#C2C2C2',
@@ -39,7 +39,7 @@ module.exports = {
     fontWeight: {
       light: 300,
       regular: 400,
-      medium: 300,
+      medium: 500,
       semibold: 600,
       bold: 700,
     },
