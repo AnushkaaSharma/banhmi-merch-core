@@ -5,6 +5,7 @@ import ImageTextSection from '../../components/ImageTextSection/ImageTextSection
 import Footer from '../../components/Footer/Footer'
 import ExploreProducts from '../../components/ExploreProducts/ExploreProducts'
 import HomeSectionCarousel from '../../components/HomeSectionCarousel/HomeSectionCarousel'
+import CoffeeBundleSection from '../../components/CoffeeBundleSection/CoffeeBundleSection'
 
 
 const HomePage = () => {
@@ -23,6 +24,10 @@ const HomePage = () => {
         <div className='my-28'>
           <ExploreProducts />
           <HomeSectionCarousel />
+        </div>
+
+        <div className='my-28'>
+          <CoffeeBundleSection />
         </div>
 
         <div>
