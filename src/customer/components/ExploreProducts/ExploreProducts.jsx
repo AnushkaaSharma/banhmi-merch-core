@@ -4,7 +4,7 @@ import divider from '../../../assets/images/divider.png'
 
 const ExploreProducts = () => {
   return (
-    <div className="my-16 mx-28">
+    <div className="mt-16 mx-28">
         <h4 className="text-h4 text-semibold font-heading text-neutral-900 text-center pb-5">
             Explore Our Products
         </h4>

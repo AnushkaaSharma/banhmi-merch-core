@@ -2,6 +2,7 @@ import React from 'react'
 import vietcoffeeBundle from '../../../assets/images/Viet-coffee-bundle.png'
 import vietcoffeeBundle2 from '../../../assets/images/viet-coffee-bundle2.png'
 import divider from '../../../assets/images/divider.png'
+import PrimaryButton from '../Buttons/PrimaryButton'
 
 const CoffeeBundleSection = () => {
   return (
@@ -17,6 +18,7 @@ const CoffeeBundleSection = () => {
                 <li className="font-regular text-p font-body p-2"><span className="font-semibold">Sweetened Condensed Milk –</span> The essential creamy touch to balance the coffee’s strong aroma.</li>
                 <li className="font-regular text-p font-body p-2"><span className="font-semibold">Vietnamese Coffee Filter (Phin) –</span> A must-have for brewing the perfect slow-drip coffee</li>
             </ul>
+            <PrimaryButton className="mt-10 w-full max-w-40" text="Shop Now" onClick={() => alert('')} />
         </div>
 
         {/*Img container grid 2*/}
