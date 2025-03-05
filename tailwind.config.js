@@ -23,6 +23,7 @@ module.exports = {
         '800': '#484848',
         '900': '#2C2C2C',
         'black': '#000000',
+        'white': '#ffffff',
       },
       primary: {
         '500': '#DB9423',
