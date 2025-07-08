@@ -4,3 +4,7 @@ img {
     object-fit: cover;
     object-position: bottom;
 }
+
+.alice-carousel__dots-item.__active button {
+  background-color: #DB9423 !important; /* active dot color */
+}
